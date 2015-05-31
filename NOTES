@@ -1,0 +1,167 @@
+#-*-org-*-
+
+Title: Scalable Is Awesome, Literally!
+
+Abstract:
+
+Scalability is a desirable characteristic of any system. But what does
+the word "scalable" actually mean? In this talk, Garrett will argue
+that when we use the word "scalable" we should instead use the word
+"awesome". Awesome has has the same meaning but is a lot more fun to
+say!
+
+In this talk Garrett will debunk the myth of scalability and provide a
+model of software engineering that uses well defined standards of
+performance and that respects the laws of physics. He'll reveal the
+secrets of building software that does what it needs to do. You'll
+learn practical skills to solve real world problems in time and space
+and build software that your users sit back and say, "wow, this is
+really awesome!"
+
+Bio:
+
+Garrett is a software engineer at CloudBees and is responsible for
+building scalable, er, that is, awesome software! At CloudBees Garrett
+led the development of the RUN platform-as-a-service that provided
+reliable, performant application hosting to tens of thousands of
+customers, which in turn served tens of millions of end-users.
+
+Garrett's weapon of choice for the development of awesome software is
+Erlang -- a highly concurrent functional programming language that use
+used by companies like Facebook, WhatsApp and Machine Zone to build
+the world's largest messaging systems. Garrett is an international
+speaker and instructor. He organizes the Chicago Erlang User Group
+which sponsors Chicago Erlang - an annual Erlang conference in the
+heart of the US. He is the author of several Erlang projects including
+e2, Psycho, and LambdaPad. He is the creator of the satirical videos
+MongoDB Is Web Scale, Node.js Is Bad Ass Rock Star Tech, and Erlang
+The Movie II, The Sequel.
+
+
+------------------
+
+- Setup: Mailing list questsions
+- Show example question
+- "Where is this person coming from?"
+- Conclusion: not a technical place - one of emotion
+- Maybe show Tweet?
+- Scalability is Awesome! (no, literally)
+- More fun to say Awesome!
+- Disappointed? Words like: distributed, cluster, farm, fleet, elastic
+  (can we no longer use these??)
+- Most clinical definition: survive a non-incremental change that's
+  occurred over some period of time
+- Increasing levels of abstraction: tooling and performance standards
+- Laws of Physics
+  - Power
+  - ICs
+  - Memory
+  - Disks
+  - Networks
+- Software
+  - Microcode (startup code - what is this called?)
+  - Kernel
+  - User space libs
+  - User space app
+- Networks
+- "The Cloud"
+  - HTTP based APIs
+- Social expectancy in our communication (talk very fast vs talk very slow)
+- Human ego (predating, mating, etc.)
+- Alpha male, alpha female
+- The Olympics (show gifs mapping an event to survival activity -
+  except synchronized swimming, then show dolphins)
+- Speed, height, agility terms
+- Point 1: not a problem - these terms are likely functions of human
+  programming and not real engineering problems - Have a good laugh -
+  get it out of your system - then turn to real eng problems
+- Could stop there - good for 95% case - most people don't have actual
+  engineering problems that fit into traditional "scalability" topics
+- Point 2: Stop using shitty frameworks (how to not be ponderously slow)
+
+- Other Points?
+
+- Point N: Only magic scales
+- Point N: We want evolvability
+- Point N: It's what you need, not what you want
+- Point N?: Scalability is one of those "Not a Problem" solutions
+- Point N?: Think "System"
+- Point N?: Straight line speed and speed are two different things
+- Point N?: Move recoverability to the client whenever possible
+
+- Coffee house chatter (e.g. "scaling down")
+- The emperors new clothes - the instantiation of vision
+
+* Principles
+
+- Avoid magic
+- Smaller is almost always better than bigger
+- Specific is almost always better than general
+- Protocols are almost always better than performance
+- Don't put it on your plate if you're not going to eat it
+
+* To Research
+
+** Average uptime of wireless network
+** Some old disk drive (CRT version)
+** Investment by Google in power and laws
+** Speed of light to travel from London to Chicago
+** Practical speed over fiber from London to Chicago
+** Typical "cloud" topology
+
+- Endpoint (Router)
+- Service (HTTP)
+- Backend services (databases, cache, etc.)
+
+** Slide on SSL (expensive)
+
+What's the expensive operation here? Encryption or decryption?
+
+** How many milliseconds in a snap
+** Avg website response time
+** Avg response time acceptable to user (attention falloff)
+** Respiration - how does this work
+
+What we need to exist - Oxygen. How does that work with the
+hydrocarbons to create energy.
+
+** Stats on how expensive the Olympics are - impact on cities
+** Growth metrics of LoseIt - permission to talk about them
+** Speed differences between memory and disk drive (LoseIt case)
+** Evolution of the Internet
+
+- Growth stats
+- How does it work?
+- How can it work?
+
+** Thomas Malthus and population growth - stats to counter this
+** Twitter's evolution
+** FPGA
+
+** Pyramid of execution environments
+
+This should show:
+
+- High level interpreted language
+- VM language
+- C generated native on OS
+- C generated native direct to hardware
+- FPGA
+- Custom chips
+
+And show the relative performance of each layer.
+
+** CGI vs threading models in performance
+* Thoughts
+
+Only magic scales... and leprechauns.
+
+Scalability is meaningless - so what do we want?
+
+Evolvability!
+
+"Micro services" and anything in this category has emerged from this
+"architectural view". What about an "engineering" view? What about an
+F1 car? If the wing snaps off and then the car explodes, is that a
+good "architeture"? Does architecture apply here? What about "winning
+a race".
