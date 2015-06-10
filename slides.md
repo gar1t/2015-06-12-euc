@@ -4,7 +4,7 @@ Opening premise. Talk about design sessions, email lists, etc.
 
 ---
 
-# My Response
+## Alternatively
 
 - Build It
 - Deploy It
@@ -12,15 +12,11 @@ Opening premise. Talk about design sessions, email lists, etc.
 
 ---
 
-# After further discussion...
+# What's going on here?
 
 ---
 
-# Emotional topic, not a technical one
-
----
-
-# Scalable → _Aweseome_
+## Scalable → _Awesome_
 
 ---
 
@@ -34,23 +30,44 @@ Release energy, move onto the real problems
 
 ---
 
+# Outages
+
+---
+
 List some key outages from big players
 
 ---
 
-# The World's Worst System
+## The World's Worst System
 
 - SharePoint
+- SQL Server
 - Big Honkin' Enterprise Java App
 - SOAP Interface
 
 ---
 
-# Nothing Scales<br>Everything Scales
+# Nothing Scales
+
+---
+
+# Everything Scales
 
 ---
 
 # <strike>Scalability</strike> Suitability
+
+---
+
+<img src="cheetah.jpg" height="640px">
+
+---
+
+<img src="springbok.jpg" height="640px">
+
+---
+
+<img src="blackberries.jpg" height="640px">
 
 ---
 
@@ -70,6 +87,10 @@ Get picture
 
 ---
 
+## No such thing as premature optimization in nature
+
+---
+
 ## No such thing as <strike>premature</strike> optimization in nature
 
 ---
@@ -78,51 +99,49 @@ Get picture
 
 ---
 
-# To exist we need to
-
-- Survive
-- Reproduce
-
-Survive: eat, not be eaten, withstand elements
+## {{ Olympics logo here }}
 
 ---
 
-# Survival
-
-Olympics photo?
+## {{ Neanderthal picture }}
 
 ---
 
-Maybe comparisons of olympic events to nature?
+### {{ Four photos: hunting, evading prey, competing for mates, shelter/endurance }}
 
 ---
 
-## Reproduction, Mate Selection
+## Nature's Caprice
 
-- Survivability of offspring
-- Caprice
-
----
-
-Photo of peahen
+### {{ peahen }}
 
 ---
 
-Photo of peacock
+## Nature's Caprice
+
+### {{ peacock }}
 
 ---
 
-# "Software Craftsmanship"
+## Mate Selection Programming
 
 ---
 
-## Patterns for Building Awesome Software
+## Very Scalable
+
+---
+
+## Very <strike>Scalable</strike> Awesome
+
+---
+
+## Scalability Anti Patterns
 
 - Not a Problem
 - Build It Naive
 - Dependencies Bad
-- Think System
-- Physics, Not Magic
+- Think "System"
+- Physics Not Magic
 
 ---
 
@@ -140,11 +159,21 @@ but a fact--not to be solved, but to be coped with over time
 
 ---
 
-Formula comparing cheap and naive with expensive and speculative
+## The Stupid Approach
 
-Probabilities of success vs time/cost
+- Obvious, line-of-sight
+- Often works
+- Often works forever
+- Cheap
+- Gets you to the actual problems
 
-Optimism
+---
+
+## Pointy Hair Argument
+
+- Cost of work is _almost always_ under estimated
+- Value of work is _often_ over estimated
+- Keep work as small as possible, improve incrementally
 
 ---
 
@@ -152,29 +181,48 @@ Optimism
 
 ---
 
-Story of XSD outage
+## Down, but how?
 
 ---
 
-Somehow calculate the cost here!
-
-Sign of growing monolith
+### {{ Screen shot of the damn XML file that did it }}
 
 ---
 
-# Think System
+### {{ Zoom in on the header }}
 
 ---
 
-Think in terms of boundaries in time and space (runtime)
+## Dependencies
 
-We're not talking about code abstractions
-
-Interfaces in time and space (runtime)
+- Moving part = part + interactions
+- Part = tree of parts
+- Parts you use can hurt you
+- Parts you don't use can hurt you
 
 ---
 
-# Physics, Not Magic
+## See "Build It Naive"
+
+- Make due with what you have
+- Fight each dependency until it overwhelms you
+- When forced to give in, do so bitterly
+
+---
+
+# Think "System"
+
+---
+
+## Independencies
+
+- Boundaries in time and space
+- Not source code abstractions
+- Some language cultures embrace system, others do not
+
+---
+
+# Physics Not Magic
 
 ---
 
@@ -182,9 +230,15 @@ Pyramid of latencies
 
 ---
 
-# Get Some Devices
+## Buy These!
 
-Raspberry PI, Ardino, Odroid
+### {{ Photos of Raspberry PI, Ardino, Odroid }}
+
+---
+
+## Build This!
+
+### {{ Some crazy racked setup with dozens of devices }}
 
 ---
 
@@ -214,14 +268,15 @@ What about this one? Abstractions that are just plain bad.
 
 ---
 
+# Wrapping Up
+
+- Embrace awesome!
+- Then consider _suitability_
+- And then _evolvability_
+
+---
+
 # Discussion
 
 ### Yell at me on Twitter!
 ## @gar1t
-
----
-
-## Notes / TODO
-
-- What about evolution here? Suitable is good, evolvable is missing
-- Fix lame bullet symbol (smaller or square)
