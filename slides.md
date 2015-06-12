@@ -1,18 +1,17 @@
 # But Will It Scale?
 
-Opening premise. Talk about design sessions, email lists, etc.
-
 ---
 
 ## Alternatively
 
 - Build It
 - Deploy It
+- Observe It
 - Fix It
 
 ---
 
-# What's going on here?
+# Gee Thanks
 
 ---
 
@@ -20,9 +19,13 @@ Opening premise. Talk about design sessions, email lists, etc.
 
 ---
 
-# Same meaning<br>more fun!
+# More fun!
 
-Release energy, move onto the real problems
+---
+
+- Myth Of Scalability
+- Scalability Obsession
+- Anti Patterns
 
 ---
 
@@ -34,7 +37,19 @@ Release energy, move onto the real problems
 
 ---
 
-List some key outages from big players
+<img src="twitter.jpg" height="100%">
+
+---
+
+<img src="amazon.png" width="100%">
+
+---
+
+<img src="ebay.png" width="100%">
+
+---
+
+# On the other hand
 
 ---
 
@@ -79,19 +94,16 @@ List some key outages from big players
 
 ---
 
-There's no such thing as fast, only fast enough.
-
--- Joe Armstrong
-
-Get picture
-
----
-
-## No such thing as premature optimization in nature
-
----
-
-## No such thing as <strike>premature</strike> optimization in nature
+<div style="position:relative;width:100%">
+<img src="joe.jpg" style="width:100%">
+<blockquote style="position:absolute;top:100px;left:50px;width:45%;opacity:0.7;">
+<dl>
+<dt>There’s no such thing as fast, only fast enough.</dt>
+<dd>— Joe Armstrong, Inventor of Erlang</dd>
+</dl>
+</blockquote>
+</img>
+</div>
 
 ---
 
@@ -99,27 +111,25 @@ Get picture
 
 ---
 
-## {{ Olympics logo here }}
+<img src="olympics.jpg" height="640px">
 
 ---
 
-## {{ Neanderthal picture }}
+<img src="hunters.jpg" height="640px">
 
 ---
 
-### {{ Four photos: hunting, evading prey, competing for mates, shelter/endurance }}
+<!--
+
+## Nature's Caprice
+
+<img src="peahen.jpg" height="550px">
 
 ---
 
 ## Nature's Caprice
 
-### {{ peahen }}
-
----
-
-## Nature's Caprice
-
-### {{ peacock }}
+<img src="peacock.jpg" height="550px">
 
 ---
 
@@ -127,13 +137,7 @@ Get picture
 
 ---
 
-## Very Scalable
-
----
-
-## Very <strike>Scalable</strike> Awesome
-
----
+-->
 
 ## Scalability Anti Patterns
 
@@ -149,9 +153,7 @@ Get picture
 
 ---
 
-If a problem has no solution, it may not be a problem,
-but a fact--not to be solved, but to be coped with over time
-— Shimon Peres (“Peres’s Law”)
+# Not A Problem... Right Now
 
 ---
 
@@ -162,7 +164,7 @@ but a fact--not to be solved, but to be coped with over time
 ## The Stupid Approach
 
 - Obvious, line-of-sight
-- Often works
+- Usually works
 - Often works forever
 - Cheap
 - Gets you to the actual problems
@@ -185,14 +187,15 @@ but a fact--not to be solved, but to be coped with over time
 
 ---
 
-### {{ Screen shot of the damn XML file that did it }}
+<img src="xml.png" width="100%">
 
 ---
 
-### {{ Zoom in on the header }}
+<img src="xml-highlight.png" width="100%">
 
 ---
 
+<!--
 ## Dependencies
 
 - Moving part = part + interactions
@@ -201,12 +204,13 @@ but a fact--not to be solved, but to be coped with over time
 - Parts you don't use can hurt you
 
 ---
+-->
 
-## See "Build It Naive"
+## Dependencies Bad
 
 - Make due with what you have
 - Fight each dependency until it overwhelms you
-- When forced to give in, do so bitterly
+- When forced to give in, do it bitterly
 
 ---
 
@@ -218,7 +222,7 @@ but a fact--not to be solved, but to be coped with over time
 
 - Boundaries in time and space
 - Not source code abstractions
-- Some language cultures embrace system, others do not
+- Some language cultures embrace "system", others do not
 
 ---
 
@@ -232,47 +236,38 @@ Pyramid of latencies
 
 ## Buy These!
 
-### {{ Photos of Raspberry PI, Ardino, Odroid }}
+<img src="raspberrypi.jpg" height="350" style="float:left">
+<img src="odroid.jpg" height="350" style="float:right">
 
 ---
 
 ## Build This!
 
-### {{ Some crazy racked setup with dozens of devices }}
+<img src="cluster.jpg" height="550">
 
 ---
 
-# Complexity?
-
-General place holder for talking about tipping points and other hard
-to predict or reason about events. Hard to design for the future
-because of this.
-
-Use MySQL tipping point as an example.
+# Final Thoughts
 
 ---
 
-# Solve Your Own Problems
-
-This might be a good N point. It's easy to read a slide presentation
-by XXX from Google and let that inform your thinking about your
-problems. That's wrong.
-
-I think this should probably be a pattern.
+# Scalable
 
 ---
 
-# ORMs Bad
-
-What about this one? Abstractions that are just plain bad.
+# <strike>Scalable</strike>
 
 ---
 
-# Wrapping Up
+# Awesome!
 
-- Embrace awesome!
-- Then consider _suitability_
-- And then _evolvability_
+---
+
+# Suitable
+
+---
+
+# Evolvable
 
 ---
 
